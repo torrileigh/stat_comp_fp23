@@ -7,7 +7,9 @@ a chance model, a permutation test, and a bootstrapped confidence interval.
 
 For each hypothesis test, the mean was always selected over the median.  While the mean is less resistent to outliers, this entire project was based around an analysis of outliers.  Because the purpose of this project is to gain insight into outliers, it seemed important to allow the data to be skewed by extreme, outlier events.
 
-The data dictionary below comes from the orginal Kaggle dataset.
+The presentation for this project can be accessed here: https://docs.google.com/presentation/d/1szGNmfnNXwYYxj5jh61IX2hduVBj4wvrRUUi-1Lc8Lc/edit?usp=sharing
+
+The data dictionary below comes from the orginal Kaggle dataset.  Additional annotations have been made by me to clarify whether each varibale is quantitative or categorical.  No other changes to the original data dictionary have been made.
 
 Data Dictionary:
 
