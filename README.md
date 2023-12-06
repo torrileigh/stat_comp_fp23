@@ -1,7 +1,7 @@
 # stat_comp_fp23
 Final Project for Statistical Computing @Belmont University Fall 23
 
-This project explores the Billionaires Statistics Dataset (2023) by Nidula Elgiriyewithana, available on Kaggle.
+This project explores the Billionaires Statistics Dataset (2023) by Nidula Elgiriyewithana, available on Kaggle here: https://www.kaggle.com/datasets/nelgiriyewithana/billionaires-statistics-dataset
 It includes initial exploratory data anlaysis, followed by three types of hypothesis testing:
 a chance model, a permutation test, and a bootstrapped confidence interval.
 
