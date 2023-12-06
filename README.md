@@ -5,76 +5,78 @@ This project explores the Billionaires Statistics Dataset (2023) by Nidula Elgir
 It includes initial exploratory data anlaysis, followed by three types of hypothesis testing:
 a chance model, a permutation test, and a bootstrapped confidence interval.
 
+For each hypothesis test, the mean was always selected over the median.  While the mean is less resistent to outliers, this entire project was based around an analysis of outliers.  Because the purpose of this project is to gain insight into outliers, it seemed important to allow the data to be skewed by extreme, outlier events.
+
 The data dictionary below comes from the orginal Kaggle dataset.
 
 Data Dictionary:
 
-rank: The ranking of the billionaire in terms of wealth.
+rank: The ranking of the billionaire in terms of wealth. Categorical.
 
-finalWorth: The final net worth of the billionaire in U.S. dollars.
+finalWorth: The final net worth of the billionaire in U.S. dollars. Quantitative.
 
-category: The category or industry in which the billionaire's business operates.
+category: The category or industry in which the billionaire's business operates. Categorical.
 
-personName: The full name of the billionaire.
+personName: The full name of the billionaire. Categorical.
 
-age: The age of the billionaire.
+age: The age of the billionaire. Quantitative.
 
-country: The country in which the billionaire resides.
+country: The country in which the billionaire resides. Categorical.
 
-city: The city in which the billionaire resides.
+city: The city in which the billionaire resides. Categorical.
 
-source: The source of the billionaire's wealth.
+source: The source of the billionaire's wealth. Categorical.
 
-industries: The industries associated with the billionaire's business interests.
+industries: The industries associated with the billionaire's business interests. Categorical.
 
-countryOfCitizenship: The country of citizenship of the billionaire.
+countryOfCitizenship: The country of citizenship of the billionaire. Categorical.
 
-organization: The name of the organization or company associated with the billionaire.
+organization: The name of the organization or company associated with the billionaire. Categorical.
 
-selfMade: Indicates whether the billionaire is self-made (True/False).
+selfMade: Indicates whether the billionaire is self-made (True/False). Categorical.
 
-status: "D" represents self-made billionaires (Founders/Entrepreneurs) and "U" indicates inherited or unearned wealth.
+status: "D" represents self-made billionaires (Founders/Entrepreneurs) and "U" indicates inherited or unearned wealth. Categorical.
 
-gender: The gender of the billionaire.
+gender: The gender of the billionaire. Categorical.
 
-birthDate: The birthdate of the billionaire.
+birthDate: The birthdate of the billionaire. Categorical.
 
-lastName: The last name of the billionaire.
+lastName: The last name of the billionaire. Categorical.
 
-firstName: The first name of the billionaire.
+firstName: The first name of the billionaire. Categorical.
 
-title: The title or honorific of the billionaire.
+title: The title or honorific of the billionaire. Categorical.
 
-date: The date of data collection.
+date: The date of data collection. Categorical.
 
-state: The state in which the billionaire resides.
+state: The state in which the billionaire resides. Categorical.
 
-residenceStateRegion: The region or state of residence of the billionaire.
+residenceStateRegion: The region or state of residence of the billionaire. Categorical.
 
-birthYear: The birth year of the billionaire.
+birthYear: The birth year of the billionaire. Categorical.
 
-birthMonth: The birth month of the billionaire.
+birthMonth: The birth month of the billionaire. Categorical.
 
-birthDay: The birth day of the billionaire.
+birthDay: The birth day of the billionaire. Categorical.
 
-cpi_country: Consumer Price Index (CPI) for the billionaire's country.
+cpi_country: Consumer Price Index (CPI) for the billionaire's country. Quantitative.
 
-cpi_change_country: CPI change for the billionaire's country.
+cpi_change_country: CPI change for the billionaire's country. Quantitative.
 
-gdp_country: Gross Domestic Product (GDP) for the billionaire's country.
+gdp_country: Gross Domestic Product (GDP) for the billionaire's country. Quantitative.
 
-gross_tertiary_education_enrollment: Enrollment in tertiary education in the billionaire's country.
+gross_tertiary_education_enrollment: Enrollment in tertiary education in the billionaire's country. Quantitative.
 
-gross_primary_education_enrollment_country: Enrollment in primary education in the billionaire's country.
+gross_primary_education_enrollment_country: Enrollment in primary education in the billionaire's country. Quantitative.
 
-life_expectancy_country: Life expectancy in the billionaire's country.
+life_expectancy_country: Life expectancy in the billionaire's country. Quantitative.
 
-tax_revenue_country_country: Tax revenue in the billionaire's country.
+tax_revenue_country_country: Tax revenue in the billionaire's country. Quantitative.
 
-total_tax_rate_country: Total tax rate in the billionaire's country.
+total_tax_rate_country: Total tax rate in the billionaire's country. Quantitative.
 
-population_country: Population of the billionaire's country.
+population_country: Population of the billionaire's country. Quantitative.
 
-latitude_country: Latitude coordinate of the billionaire's country.
+latitude_country: Latitude coordinate of the billionaire's country. Categorical.
 
-longitude_country: Longitude coordinate of the billionaire's country.
+longitude_country: Longitude coordinate of the billionaire's country. Categorical.
